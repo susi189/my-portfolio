@@ -1,0 +1,37 @@
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  padding-top: 3rem;
+  margin: 0;
+}
+
+.main-section > * {
+  width: 85%;
+  height: 350px;
+}
+
+@media all and (min-width: 600px) {
+  .main-section > * {
+    max-width: 500px;
+    height: 400px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .main-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "descr image" "projects projects";
+    /* margin: 0 3rem; */
+  }
+
+  .main-section > * {
+    max-width: 700px;
+    height: 600px;
+  }
+  .wrapper {
+    grid-area: projects;
+  }
+}
