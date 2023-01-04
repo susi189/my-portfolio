@@ -9,9 +9,7 @@ const Main = () => {
     <main className={styles["main-section"]}>
       <About />
       <ImageSection />
-      <div className={styles.wrapper}>
-        <Projects />
-      </div>
+      <Projects />
     </main>
   );
 };

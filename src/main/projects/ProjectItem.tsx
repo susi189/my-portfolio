@@ -7,13 +7,15 @@ const SingleProject = ({
   title,
   description,
   technologies,
-}: Project) => {
+}: Project): JSX.Element => {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.title}>Single project</div>
-      <div className={styles.image}></div>
-      <div className={styles.description}></div>
-      <div className={styles.tools}></div>
+      <div className={styles.title}>{title}</div>
+      <div className={styles.image}>
+        <img src={image} alt="project thumbnail"></img>
+      </div>
+      <div className={styles.description}>{description}</div>
+      <div className={styles.tools}>Tools used: {technologies}</div>
     </div>
   );
 };
