@@ -3,5 +3,8 @@ export type Project = {
   image: string;
   title: string;
   description: string;
+  list1: string;
+  list2: string;
+  list3: string;
   technologies: string;
 };

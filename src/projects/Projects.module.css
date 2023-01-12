@@ -1,0 +1,29 @@
+.projects {
+  grid-area: projects;
+  justify-self: center;
+}
+
+.projects h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+  padding: 8rem 3rem 3rem 3rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+@media all and (min-width: 1024px) {
+  .projects {
+    max-width: 1600px;
+  }
+
+  .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: none;
+  }
+}

@@ -1,0 +1,40 @@
+.about-descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 2rem;
+  height: 400px;
+  background-color: var(--pink);
+  border-radius: 10%;
+  grid-area: descr;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.about-descr h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.about-descr h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+@media all and (max-width: 360px) {
+  .about-descr h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .about-descr h1 {
+    font-size: 4rem;
+  }
+
+  .about-descr h2 {
+    font-size: 2rem;
+  }
+}

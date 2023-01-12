@@ -1,8 +1,8 @@
 import React from "react";
 import SingleProject from "./ProjectItem";
 import styles from "./Projects.module.css";
-import projectsJson from "../../projects.json";
-import { Project } from "../../types/project";
+import projectsJson from "../projects.json";
+import { Project } from "../types/project";
 
 const Projects = () => {
   const projects = projectsJson as Project[];
@@ -17,6 +17,9 @@ const Projects = () => {
               image={item.image}
               title={item.title}
               description={item.description}
+              list1={item.list1}
+              list2={item.list2}
+              list3={item.list3}
               technologies={item.technologies}
             />
           );
