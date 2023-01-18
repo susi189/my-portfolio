@@ -59,10 +59,10 @@
     "image": "thumbnails/cs.png",
     "title": "Coming soon page",
     "description": "Created a page for a mockup store based on a given design.",
-    "list1": "Email form with validation",
-    "list2": "Responsive design",
-    "list3": "",
-    "technologies": "JavaScript, HTML, CSS",
+    "list1": "Responsive design",
+    "list2": "Email form with validation",
+    "list3": "CSS Flexbox and CSS Grid",
+    "technologies": "JavaScript, HTML, CSS/SASS",
     "link": "https://susi189.github.io/fm-coming-soon-page/"
   },
   {
