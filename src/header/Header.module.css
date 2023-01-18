@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media all and (max-width: 425px) {
+  .header {
+    margin-right: 3rem;
+  }
+}

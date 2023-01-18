@@ -1,13 +1,13 @@
 import React from "react";
 import Main from "./home/Home";
-import Navbar from "./navbar/Navbar";
+import Header from "./header/Header";
 import styles from "./App.module.css";
 import Projects from "./projects/Projects";
 
 const App = (): JSX.Element => {
   return (
     <div className={styles.app}>
-      <Navbar />
+      <Header />
       <Main />
       <Projects />
     </div>

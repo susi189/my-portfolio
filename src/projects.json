@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "image": "thumbnails/1.png",
+    "image": "thumbnails/silengua.png",
     "title": "silengua Fachübersetzungen",
     "description": "A portfolio site for a translator in Germany.",
     "list1": "Design, development and deployment",
@@ -12,7 +12,7 @@
   },
   {
     "id": "2",
-    "image": "thumbnails/2.png",
+    "image": "thumbnails/myStore.png",
     "title": "Storefront Mockup",
     "description": "An online storefront.",
     "list1": "Products list and product page",
@@ -23,7 +23,7 @@
   },
   {
     "id": "3",
-    "image": "thumbnails/4.png",
+    "image": "thumbnails/iprocessing.png",
     "title": "Image Processing API",
     "description": "An API for changing the size of an image given URL parameters.",
     "list1": "Resize any image",
@@ -34,7 +34,7 @@
   },
   {
     "id": "4",
-    "image": "thumbnails/3.png",
+    "image": "thumbnails/github.png",
     "title": "Backend for a Store",
     "description": "This is a mockup backend for a store based on given frontend requirements.",
     "list1": "Setting up RESTful routes",
@@ -45,7 +45,7 @@
   },
   {
     "id": "5",
-    "image": "thumbnails/5.png",
+    "image": "thumbnails/chart.png",
     "title": "Menstrual charting app",
     "description": "A desktop app designed based on a paper and pencil Creighton Model.",
     "list1": "Creating a new cycle",
@@ -56,7 +56,7 @@
   },
   {
     "id": "6",
-    "image": "thumbnails/6.png",
+    "image": "thumbnails/cs.png",
     "title": "Coming soon page",
     "description": "Created a page for a mockup store based on a given design.",
     "list1": "Email form with validation",
@@ -67,7 +67,7 @@
   },
   {
     "id": "7",
-    "image": "thumbnails/7.png",
+    "image": "thumbnails/game.png",
     "title": "Rock-Paper-Scissor Game",
     "description": "Created a new design for a well known game.",
     "list1": "Playing against computer",
@@ -78,7 +78,7 @@
   },
   {
     "id": "8",
-    "image": "thumbnails/8.png",
+    "image": "thumbnails/eas.png",
     "title": "Etch-A-Sketch",
     "description": "This is a very simple version of a Etch-A-Sketch tool.",
     "list1": "DOM manipulation",

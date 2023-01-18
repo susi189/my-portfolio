@@ -1,13 +1,13 @@
 .navbar {
   display: flex;
   justify-content: center;
-  margin: 2rem 1rem;
+  margin: 3rem 0;
 }
 
 .navbar a {
   text-decoration: none;
   margin: 0rem 3rem;
-  padding: 1rem 0;
+  padding: 0.7rem 0;
   font-weight: 300;
   color: var(--black);
   position: relative;
@@ -32,10 +32,25 @@
   transform: scaleX(1);
 }
 
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+@media all and (max-width: 425px) {
+  .navbar {
+    flex-direction: column;
+    margin: 0;
+  }
+  .navbar a {
+    margin: 0.5rem;
+  }
+}
+
 @media all and (min-width: 1024px) {
   .navbar {
     display: flex;
     justify-content: flex-start;
-    margin: 3rem 1rem;
+    margin: 3.5rem 1rem;
   }
 }
