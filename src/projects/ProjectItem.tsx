@@ -10,6 +10,7 @@ const SingleProject = ({
   list2,
   list3,
   technologies,
+  link,
 }: Project): JSX.Element => {
   return (
     <div className={styles.wrapper}>
@@ -24,6 +25,11 @@ const SingleProject = ({
               <li>{list2}</li>
               <li>{list3}</li>
             </ul>
+          </div>
+          <div className={styles.link}>
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              View Project
+            </a>
           </div>
         </section>
       </div>

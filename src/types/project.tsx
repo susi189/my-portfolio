@@ -7,4 +7,5 @@ export type Project = {
   list2: string;
   list3: string;
   technologies: string;
+  link: string;
 };

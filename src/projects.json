@@ -1,82 +1,90 @@
 [
   {
     "id": "1",
-    "image": "thumbnails/silengua.jpg",
+    "image": "thumbnails/1.png",
     "title": "silengua Fachübersetzungen",
     "description": "A portfolio site for a translator in Germany.",
     "list1": "Design, development and deployment",
     "list2": "Maintenance",
     "list3": "SEO",
-    "technologies": "React, React Router, JavaScript, CSS Modules"
+    "technologies": "React, React Router, JavaScript, CSS Modules",
+    "link": "https://silengua.de/#/welcome"
   },
   {
     "id": "2",
-    "image": "thumbnails/myStore.jpg",
+    "image": "thumbnails/2.png",
     "title": "Storefront Mockup",
     "description": "An online storefront.",
     "list1": "Products list and product page",
     "list2": "Adding products to and removing them from cart",
     "list3": "Form submission with validation",
-    "technologies": "Angular, Typescript, CSS"
+    "technologies": "Angular, Typescript, CSS",
+    "link": "https://susi189.github.io/my-store-angular/"
   },
   {
     "id": "3",
-    "image": "link",
+    "image": "thumbnails/4.png",
     "title": "Image Processing API",
     "description": "An API for changing the size of an image given URL parameters.",
     "list1": "Resize any image",
     "list2": "Save that image",
     "list3": "Unit testing",
-    "technologies": "Node.js/Express, Typescript, Jasmine"
+    "technologies": "Node.js/Express, Typescript, Jasmine",
+    "link": "https://github.com/susi189/img-processing-api"
   },
   {
     "id": "4",
-    "image": "link",
+    "image": "thumbnails/3.png",
     "title": "Backend for a Store",
     "description": "This is a mockup backend for a store based on given frontend requirements.",
     "list1": "Setting up RESTful routes",
     "list2": "Creating database structure",
     "list3": "User authentication",
-    "technologies": "Node.js/Express, Typescript, PostgreSQL, dotenv, Jasmine/Supertest"
+    "technologies": "Node.js/Express, Typescript, PostgreSQL, dotenv, Jasmine/Supertest",
+    "link": "https://github.com/susi189/storefront-backend-project"
   },
   {
     "id": "5",
-    "image": "link",
+    "image": "thumbnails/5.png",
     "title": "Menstrual charting app",
     "description": "A desktop app designed based on a paper and pencil Creighton Model.",
     "list1": "Creating a new cycle",
     "list2": "Updating the current cycle",
     "list3": "Storing data with Supabase",
-    "technologies": "React, Javascript, CSS, Supabase"
+    "technologies": "React, Javascript, CSS, Supabase",
+    "link": "https://susi189.github.io/react-charting-app/"
   },
   {
     "id": "6",
-    "image": "link",
+    "image": "thumbnails/6.png",
     "title": "Coming soon page",
     "description": "Created a page for a mockup store based on a given design.",
     "list1": "Email form with validation",
     "list2": "Responsive design",
     "list3": "",
-    "technologies": "JavaScript, HTML, CSS"
+    "technologies": "JavaScript, HTML, CSS",
+    "link": "https://susi189.github.io/fm-coming-soon-page/"
   },
   {
     "id": "7",
-    "image": "link",
+    "image": "thumbnails/7.png",
     "title": "Rock-Paper-Scissor Game",
     "description": "Created a new design for a well known game.",
     "list1": "Playing against computer",
     "list2": "Score count",
     "list3": "Result page",
-    "technologies": "JavaScript, HTML, CSS"
+    "technologies": "JavaScript, HTML, CSS",
+    "link": "https://susi189.github.io/rps-game/src/"
   },
   {
     "id": "8",
-    "image": "link",
+    "image": "thumbnails/8.png",
     "title": "Etch-A-Sketch",
     "description": "This is a very simple version of a Etch-A-Sketch tool.",
     "list1": "DOM manipulation",
     "list2": "CSS Grid",
     "list3": "Event listeners",
-    "technologies": "JavaScript, HTML, CSS"
+    "technologies": "JavaScript, HTML, CSS",
+    "link": "https://susi189.github.io/etch-a-sketch/index.html"
   }
 ]

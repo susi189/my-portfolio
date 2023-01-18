@@ -21,6 +21,7 @@ const Projects = () => {
               list2={item.list2}
               list3={item.list3}
               technologies={item.technologies}
+              link={item.link}
             />
           );
         })}
