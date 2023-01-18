@@ -9,6 +9,7 @@
   grid-area: descr;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  position: relative;
 }
 
 .about-descr h1 {
@@ -20,6 +21,31 @@
 .about-descr h2 {
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10%;
+  background-color: var(--dark-blue);
+  color: white;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 200;
+  line-height: 1.6;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-descr:hover .overlay {
+  opacity: 100%;
 }
 
 @media all and (max-width: 360px) {
